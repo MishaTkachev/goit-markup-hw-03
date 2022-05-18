@@ -30,6 +30,7 @@ body {
   background-color: white;
   letter-spacing: 0.03em;
   font-size: 14px;
+  margin: 0;
 }
 
 .container {
@@ -107,6 +108,10 @@ img {
   color: var(--focus-color);
 }
 
+.portfolio-button.current {
+  color: var(--focus-color);
+}
+
 .section-header {
   display: flex;
   align-items: center;
@@ -118,6 +123,10 @@ img {
 
 .ul.nav .nav-navigation-list:not(:last-child) {
   margin-right: 50px;
+}
+
+.active {
+  color: var(--focus-color);
 }
 
 .nav-navigation:hover,
